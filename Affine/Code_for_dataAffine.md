@@ -14,3 +14,8 @@
 |  20     |  Male         |         24          |
 |  23     |  Female       |         25          |
 |  23     |  Male         |         25          |
+
+# test data table
+```
+pd.read_csv (r'/content/gdrive/MyDrive/Tooth_Shap_GPT/Deep_tooth/Model/Multi_task(Age)(7-25)/Table_test_Predict.csv')
+```
