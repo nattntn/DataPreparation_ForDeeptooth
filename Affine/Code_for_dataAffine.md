@@ -19,3 +19,18 @@
 ```
 pd.read_csv (r'/content/gdrive/MyDrive/Tooth_Shap_GPT/Deep_tooth/Model/Multi_task(Age)(7-25)/Table_test_Predict.csv')
 ```
+
+You can change the Path_Name column to reflect the new path using the str.replace method in pandas. Here is the code snippet to do that:
+
+```
+import pandas as pd
+
+# Load the dataframe
+df = pd.read_csv('/content/gdrive/MyDrive/Tooth_Shap_GPT/Deep_tooth/Model/Multi_task(Age)(7-25)/Table_test_Predict.csv')
+
+# Replace the old path with the new path
+df['Path_Name'] = df['Path_Name'].str.replace('/content/gdrive/MyDrive/Tooth_Shap_GPT/Deep_tooth', '/media/data/Natdata/Tooth_data')
+
+# Display the updated dataframe
+df.head()
+```
