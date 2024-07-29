@@ -34,3 +34,12 @@ df['Path_Name'] = df['Path_Name'].str.replace('/content/gdrive/MyDrive/Tooth_Sha
 # Display the updated dataframe
 df.head()
 ```
+
+
+glob.glob เป็นฟังก์ชันในโมดูล glob ของ Python ซึ่งใช้สำหรับค้นหาไฟล์และไดเรกทอรีที่ตรงกับรูปแบบที่กำหนด (pattern matching) คล้ายกับการใช้ wildcard ใน shell (เช่น *.jpg เพื่อค้นหาทุกไฟล์ที่มีนามสกุล .jpg).
+
+อธิบายการใช้งาน:
+```
+glob.glob("*.jpg") จะค้นหาและส่งคืนรายชื่อไฟล์ทั้งหมดในไดเรกทอรีปัจจุบันที่มีนามสกุล .jpg.
+print(len(glob.glob("*.jpg"))) จะพิมพ์จำนวนไฟล์ที่มีนามสกุล .jpg ในไดเรกทอรีปัจจุบัน.
+```
