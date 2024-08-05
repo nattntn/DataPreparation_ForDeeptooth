@@ -2,9 +2,9 @@
 
 |   Age   |   Number of images   |   Accuracy  |
 |:-------:|:--------------------:|:-----------:|
-|  19     |         49           |             |
-|  20     |         49           |             |
-|  23     |         50           |             |
+|  19     |         49           |   95.92%    |
+|  20     |         49           |   95.92%    |
+|  23     |         50           |   98.00%    |
 
 |   Age   |     Sex       |   Number of images  |
 |:-------:|:-------------:|:-------------------:|
@@ -14,6 +14,10 @@
 |  20     |  Male         |         24          |
 |  23     |  Female       |         25          |
 |  23     |  Male         |         25          |
+
+
+# colab
+https://colab.research.google.com/drive/1Hl7oM8AQ1rQbyGzCdJyA5nfuvyCN50Zn?usp=sharing
 
 # test data table
 ```
