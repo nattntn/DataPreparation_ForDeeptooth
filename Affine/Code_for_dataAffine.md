@@ -47,3 +47,17 @@ glob.glob เป็นฟังก์ชันในโมดูล glob ขอ�
 glob.glob("*.jpg") จะค้นหาและส่งคืนรายชื่อไฟล์ทั้งหมดในไดเรกทอรีปัจจุบันที่มีนามสกุล .jpg.
 print(len(glob.glob("*.jpg"))) จะพิมพ์จำนวนไฟล์ที่มีนามสกุล .jpg ในไดเรกทอรีปัจจุบัน.
 ```
+
+# How to set env for EfficientB0
+1. pip install flask
+2. pip install tensorflow
+3. pip install -U efficientnet
+4.
+```
+#ดึงข้อมูลใน Github มาใช้
+import os
+%cd /home/natthanich/Tooth_Affine/
+if not os.path.isdir("efficientnet_keras_transfer_learning"):
+ !git clone https://github.com/Wanita-8943/efficientnet_keras_transfer_learning
+%cd efficientnet_keras_transfer_learning/
+````
