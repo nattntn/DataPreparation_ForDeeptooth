@@ -63,12 +63,18 @@
 |  25     |  Female       |         25          |
 |  25     |  Male         |         25          |
 
-
+## code
+```
+#ย้าย folder จากpc  ไป server
+scp -r ./{folder name} natt@10.177.191.29:/media/tohn/HDD/Natdata/Tooth_data/Data_Label/.
+```
 
 ```
-# path data original อายุ 19,20,23
+# path data original of test cut images (943 images)
 /media/tohn/HDD/Natdata/Tooth_data/Data_Label/ #path
-19Y
-20Y
-23Y
+7Y
+.
+.
+.
+25Y
 ```
