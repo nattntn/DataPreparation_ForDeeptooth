@@ -121,6 +121,8 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 # negative ตาม threshold
 ## correct
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_correct_male_UC_90percent.csv
+### predict
+
 
 ## incorrect
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_incorrect_male_UC_10percent.csv
@@ -128,6 +130,18 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 # positive
 ## correct
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_correct_male_UC_90percent.csv
+
+### predict
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_cor_scale_x.cs
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_cor_scale_x.csv
+
+Age
+MAE: 1.3222446916076844
+MSE: 3.5788675429726995
+RMSE: 1.8917895081040859
+Sex
+accuracy = 100.0%
+
 
 ## incorrect
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_incorrect_male_UC_10percent.csv
