@@ -76,7 +76,11 @@
 [Colab](https://colab.research.google.com/drive/17xrR2P9VTEYq7zstCFRPQZudOc5VLJIT?authuser=0#scrollTo=4BvXrVng8Hpy&uniqifier=1)
 ```
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025 #path
+
+# ผล SHAP+YOLO+ผลการทำนาย ผู้หญิง 1-prob **negative**
 final_result_gender_negative_bboxes.csv
+
+# ผล SHAP+YOLO+ผลการทำนาย ผู้หญิง 1-prob **positive**
 final_result_gender_positive_bboxes.csv
 
 # data ที่ label region of Upper Canine
@@ -111,3 +115,11 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Result_ALL/final_result_gender_negative_bboxes.csv')
 
 ```
+# Threshold 15-9-2567
+:basecampy:  **correct upper 90%** 
+![image](https://github.com/user-attachments/assets/8901d76b-0a43-42b4-b710-fa2be53a0b05)  
+:basecampy: **incorrect under 10%**  
+![image](https://github.com/user-attachments/assets/474ed238-895e-439e-b621-1efdcefa63ae)
+
+
+
