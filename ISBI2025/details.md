@@ -72,10 +72,19 @@
 |    Age correct    |                |              |                |              |
 |   Age incorrect   |                |              |                |              |
 
+# data SHAP YOLO ภาพ original
+[Colab](https://colab.research.google.com/drive/17xrR2P9VTEYq7zstCFRPQZudOc5VLJIT?authuser=0#scrollTo=4BvXrVng8Hpy&uniqifier=1)
+```
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025 #path
+final_result_gender_negative_bboxes.csv
+final_result_gender_positive_bboxes.csv
+```
+
 ## code
 ```
 #ย้าย folder จากpc  ไป server
 scp -r ./{folder name} natt@10.177.191.29:/media/tohn/HDD/Natdata/Tooth_data/Data_Label/.
+scp -r ./Gender_ISBI2025 natt@10.177.191.29:/media/tohn/HDD/Natdata/Tooth_data/.
 ```
 
 ```
