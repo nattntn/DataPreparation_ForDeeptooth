@@ -146,6 +146,19 @@ accuracy = 100.0%
 ## incorrect
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_incorrect_male_UC_10percent.csv
 
+### predict
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor_scale_x.csv
+
+Age
+MAE: 1.0105708245243128
+MSE: 1.8350951374207187
+RMSE: 1.3546568338220268
+
+Sex
+accuracy = 0.0% (ทายไม่ถูกเหมือนเดิม)
+
+
 ```
 
 
