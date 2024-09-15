@@ -116,12 +116,6 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 
 ```
 # Threshold 15-9-2567
-## Negative
-:basecampy:  **correct upper 90%** 
-![image](https://github.com/user-attachments/assets/8901d76b-0a43-42b4-b710-fa2be53a0b05)  
-:basecampy: **incorrect under 10%**  
-![image](https://github.com/user-attachments/assets/474ed238-895e-439e-b621-1efdcefa63ae)
-
 ## path data
 ```
 # negative ตาม threshold
@@ -130,6 +124,13 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 
 ## incorrect
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_incorrect_male_UC_10percent.csv
+
+# positive
+## correct
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_correct_male_UC_90percent.csv
+
+## incorrect
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_incorrect_male_UC_10percent.csv
 
 ```
 
