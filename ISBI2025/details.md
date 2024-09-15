@@ -63,6 +63,15 @@
 |  25     |  Female       |         25          |
 |  25     |  Male         |         25          |
 
+# Upper Canine
+| **upper cannine** | Negative (569) |              |Positive (557)  |              |
+|:-----------------:|:--------------:|:------------:|:--------------:|:------------:|
+| **Sex**           |**Female (273)**|**Male (296)**|**Female (264)**|**Male (293)**|
+|      Correct      |       233      |     257      |       224      |     254      |
+|     Incorrect     |       40       |     39       |       40       |     39       |
+|    Age correct    |                |              |                |              |
+|   Age incorrect   |                |              |                |              |
+
 ## code
 ```
 #ย้าย folder จากpc  ไป server
