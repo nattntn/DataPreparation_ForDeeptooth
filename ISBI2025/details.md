@@ -78,3 +78,14 @@ scp -r ./{folder name} natt@10.177.191.29:/media/tohn/HDD/Natdata/Tooth_data/Dat
 .
 25Y
 ```
+```
+#ผลการทำนาย 943 ภาพ
+/content/gdrive/MyDrive/Tooth_Shap_GPT/Deep_tooth/Model/Multi_task(Age)(7-25)/Table_test_Predict.csv
+
+# ผล SHAP+YOLO+ผลการทำนาย ผู้หญิง 1-prob **positive**
+pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Result_ALL/final_result_gender_positive_bboxes.csv')
+
+# ผล SHAP+YOLO+ผลการทำนาย ผู้หญิง 1-prob **negative**
+pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Result_ALL/final_result_gender_negative_bboxes.csv')
+
+```
