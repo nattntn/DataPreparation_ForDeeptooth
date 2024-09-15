@@ -210,9 +210,9 @@ accuracy = 100.0%
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor_scale_y.csv
 
 age
-MAE: 1.0105708245243128
-MSE: 1.8350951374207187
-RMSE: 1.3546568338220268
+MAE: 0.9915433403805497
+MSE: 1.7568710359408033
+RMSE: 1.3254701188411617
 
 sex
 accuracy = 0.0%
@@ -241,8 +241,13 @@ accuracy = 100.0%
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor_scale_x.csv
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor_scale_x.csv
 
+Age
+MAE: 0.9915433403805497
+MSE: 1.7568710359408033
+RMSE: 1.3254701188411617
 
-
+sex
+accuracy = 0.0%
 ```
 
 
