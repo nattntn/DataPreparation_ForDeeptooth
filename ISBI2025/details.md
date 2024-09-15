@@ -78,6 +78,9 @@
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025 #path
 final_result_gender_negative_bboxes.csv
 final_result_gender_positive_bboxes.csv
+
+# data ที่ label region of Upper Canine
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/merge_result_UpperCanine_dataset.csv
 ```
 
 ## code
