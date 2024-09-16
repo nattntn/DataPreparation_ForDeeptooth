@@ -116,72 +116,71 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 
 ```
 # Threshold 15-9-2567
-## path data scale x
+## path data
 ```
 # negative ตาม threshold
 ## correct
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_correct_male_UC_90percent.csv
-### predict (232*43=9976)
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_cor_scale_x.csv
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_cor_scale_x.csv
-
-Age
-MAE: 1.3616680032076984
-MSE: 3.6954691259021653
-RMSE: 1.9223603007506593
-
-sex
-accuracy = 100.0%
-
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_correct_male_UC_55percent.csv
 
 ## incorrect
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_incorrect_male_UC_10percent.csv
-
-### predict (22*43=946)
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_incor_scale_x.csv
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor_scale_x.csv
-
-age
-MAE: 1.0105708245243128
-MSE: 1.8350951374207187
-RMSE: 1.3546568338220268
-
-sex
-accuracy = 0.0%
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_incorrect_male_UC_45percent.csv
 
 
-# positive
+# positive ตาม threshold
 ## correct
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_correct_male_UC_90percent.csv
-
-### predict (230*43=9890)
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_cor_scale_x.cs
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_cor_scale_x.csv
-
-Age
-MAE: 1.3222446916076844
-MSE: 3.5788675429726995
-RMSE: 1.8917895081040859
-Sex
-accuracy = 100.0%
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_correct_male_UC_55percent.csv
 
 
 ## incorrect
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_incorrect_male_UC_10percent.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_incorrect_male_UC_45percent.csv
+```
+## path data scale x
+```
+# negative ตาม threshold
+## correct
+### correct 95% (232*43=9976)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_cor_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_cor_scale_x.csv
 
-### predict (22*43=946)
+### correct 55% (3*43=129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_cor55_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_cor55_scale_x.csv
+
+
+## incorrect
+### incorrect 5% (22*43=946)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_incor_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor_scale_x.csv
+
+### incorrect 45% (3*43=129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_incor45_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor45_scale_x.csv
+
+
+
+
+# positive
+## correct
+### correct 95% (230*43=9890)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_cor_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_cor_scale_x.csv
+
+### correct 55% (3*43=129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_cor55_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_cor55_scale_x.csv
+
+## incorrect
+### incorrect 5% (22*43=946)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor_scale_x.csv
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor_scale_x.csv
 
-Age
-MAE: 1.0105708245243128
-MSE: 1.8350951374207187
-RMSE: 1.3546568338220268
-
-Sex
-accuracy = 0.0% (ทายไม่ถูกเหมือนเดิม)
-
-
+### incorrect 45% (3*43=129) 
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor45_scale_x.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor45_scale_x.csv
 ```
 
 ## path data scale y
