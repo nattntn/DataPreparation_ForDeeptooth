@@ -187,34 +187,25 @@ pd.read_csv (r'/content/gdrive/My Drive/Tooth_Shap_GPT/Deep_tooth/OPG_SHAPer/Res
 ```
 # negative ตาม threshold
 ## correct
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_correct_male_UC_90percent.csv
-### predict (232*43=9976)
+### correct 95% (232*43=9976)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_cor_scale_y.csv
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_cor_scale_y.csv
 
-Age
-MAE: 1.341720128307939
-MSE: 3.6075581395348837
-RMSE: 1.8993572964386884
+### correct 55% (3*43=129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_cor55_scale_y.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_cor55_scale_y.csv
 
-sex
-accuracy = 100.0%
 
 
 ## incorrect
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Neg_incorrect_male_UC_10percent.csv
 
-### predict (22*43=946)
+### incorrect 5% (22*43=946)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_incor_scale_y.csv
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor_scale_y.csv
 
-age
-MAE: 0.9915433403805497
-MSE: 1.7568710359408033
-RMSE: 1.3254701188411617
-
-sex
-accuracy = 0.0%
+### incorrect 45% (3*43=129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/neg_incor45_scale_y.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor45_scale_y.csv
 
 
 # positive
