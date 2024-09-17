@@ -219,34 +219,23 @@ accuracy = 0.0%
 
 # positive
 ## correct
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_correct_male_UC_90percent.csv
-
-### predict (230*43=9890)
+### correct 95% (230*43=9890)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_cor_scale_y.cs
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_cor_scale_y.csv
 
-Age
-MAE: 1.3006066734074824
-MSE: 3.4862487360970675
-RMSE: 1.867149896526004
-Sex
-accuracy = 100.0%
-
+### correct 55% (3*43=129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_cor55_scale_y.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_cor55_scale_y.csv
 
 ## incorrect
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Pos_incorrect_male_UC_10percent.csv
+### incorrect 5% (22*43=946)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor_scale_y.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor_scale_y.csv
 
-### predict (22*43=946)
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor_scale_x.csv
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor_scale_x.csv
+### incorrect 45%  (3*43=129) 
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/pos_incor45_scale_y.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor45_scale_y.csv
 
-Age
-MAE: 0.9915433403805497
-MSE: 1.7568710359408033
-RMSE: 1.3254701188411617
-
-sex
-accuracy = 0.0%
 ```
 
 
