@@ -55,8 +55,10 @@
 ```
 # Negative
 ## All (40*43 = 1720 images)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor_female_Predict_male_scale_x.csv
 
 ## confident under 55% (2*43=86 images)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor55_female_Predict_male_scale_x.csv
 
 
 # Positive
@@ -65,4 +67,23 @@
 
 ## confident under 55% (2*43=86 images)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor55_female_Predict_male_scale_x.csv
+```
+
+# Predict y adjust
+```
+# Negative
+## All (40*43 = 1720 images)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor_female_Predict_male_scale_y.csv
+
+## confident under 55% (2*43=86 images)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_neg_incor55_female_Predict_male_scale_y.csv
+
+
+# Positive
+## All (40*43 = 1720 images)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor_female_Predict_male_scale_y.csv
+
+## confident under 55% (2*43=86 images)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/predict_pos_incor55_female_Predict_male_scale_y.csv
+
 ```
