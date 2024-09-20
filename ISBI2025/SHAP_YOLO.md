@@ -57,15 +57,15 @@
 
 # region focus on 50% (All prediction) (129)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_scaleX_positive_bboxes_upper50.csv
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_scaleX_negative_bboxes_upper50.csv
 
 # region focus on 50% (prediction male) (45)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_male_scaleX_positive_bboxes_upper50.csv
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/'Positive_cor55_male_scaleX_negative_bboxes_upper50.csv
 
 # region focus on 50% (prediction female) (84)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_female_scaleX_positive_bboxes_upper50.csv
-/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_female_scaleX_negative_bboxes_upper50.csv
 
 ```
 ### Scale Y
