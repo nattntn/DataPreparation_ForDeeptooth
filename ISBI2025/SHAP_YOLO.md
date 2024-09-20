@@ -47,6 +47,40 @@
 
 ```
 
+# Positive 
+## correct 55% (class: male)
+### Scale X
+```
+# table plot bounding box
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_scaleX_positive_bboxes.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_scaleX_negative_bboxes.csv
+
+# region focus on 50% (All prediction) (129)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_scaleX_positive_bboxes_upper50.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/
+
+# region focus on 50% (prediction male) (45)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_male_scaleX_positive_bboxes_upper50.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/
+
+# region focus on 50% (prediction female) (84)
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor55_female_scaleX_positive_bboxes_upper50.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/
+
+```
+### Scale Y
+```
+# table plot bounding box
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor95_scaleY_positive_bboxes.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor95_scaleY_negative_bboxes.csv
+
+# region focus on 50%
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor95_scaleY_positive_bboxes_upper50.csv
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_cor95_scaleY_negative_bboxes_upper50.csv 
+
+```
+
+
 # Positive  
 ## incorrect 55%
 ### Scale X
@@ -65,7 +99,7 @@
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_incor55_male_scaleX_negative_bboxes_upper50.csv
 
 
-# region focus on 50% (prediction male) (36)
+# region focus on 50% (prediction female) (36)
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_incor55_female_scaleX_positive_bboxes_upper50.csv
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/SHAP_YOLO/Positive_incor55_female_scaleX_negative_bboxes_upper50.csv
 ```
