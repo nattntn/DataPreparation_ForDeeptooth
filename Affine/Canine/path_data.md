@@ -27,3 +27,14 @@
 ```
 /media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Sex_incorrect55_UpperCanine_dataset_Ratio.csv
 ```
+
+# Adjusted data
+1️⃣ Scale_X: All_data + new prediction (prediction after adjusted) 
+
+```
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Canine_Sex/predict_all_Predict_scale_x.csv
+```
+2️⃣ Scale_Y: All_data + new prediction (prediction after adjusted)
+```
+/media/tohn/HDD/Natdata/Tooth_data/Gender_ISBI2025/Affine/Data/Canine_Sex/predict_all_Predict_scale_y.csv
+```
